@@ -1,8 +1,33 @@
 .login-container{
-  // display: flex;
-  // justify-content: center; 
-  // align-items: center; 
-  min-height: 100vh;
-  width: 100%; 
-  background-color: #4168e7; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/img/common/login-bg.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; 
+  width: 100vw;
+}
+
+.login-section{
+  width: 900px;
+  min-width: 900px;
+  height: 542px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.login-branding{
+  flex: 1;
+  background: url('../../assets/img/common/login-ad.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 542px;
+}
+
+.login-form{
+  flex: 1;
+  background-color: #fff;
 }

@@ -3,7 +3,10 @@ import './Login.scss'
 function Login(){
   return (
     <div className='login-container'>
-      Login
+      <div className='login-section'>
+        <div className='login-branding'></div>
+        <div className='login-form'></div>
+      </div>
     </div>
   );
 }
