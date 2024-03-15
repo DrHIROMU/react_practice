@@ -15,19 +15,50 @@
   min-width: 900px;
   height: 542px;
   display: flex;
-  justify-content: space-between; 
 }
 
 .login-branding{
-  flex: 1;
+  flex-basis: 50%;
   background: url('../../assets/img/common/login-ad.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 542px;
+  box-sizing: border-box;
+}
+
+.login-info{
+  flex-basis: 50%;
+  background-color: #fff;
+  padding: 30px 60px;
+  box-sizing: border-box;
 }
 
 .login-form{
-  flex: 1;
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.login-logo{
+  background: url(../../assets/img/common/LOGO.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 223px;
+  height: 45px;
+}
+
+.environment-notice{
+
+}
+
+.login-input-group{
+
+}
+
+.login-input{
+
+}
+
+.login-btn{
+  
 }
