@@ -4,6 +4,10 @@ import HttpsOutlinedIcon from "@mui/icons-material/HttpsOutlined";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
 
 function Login() {
+  function login(){
+    alert('login')
+  }
+
   return (
     <div className="login-container">
       <div className="login-section">
@@ -34,7 +38,7 @@ function Login() {
               </div>
             </div>
             <div>
-              <button className="login-btn">Login</button>
+              <button className="login-btn" onClick={login}>Login</button>
             </div>
           </form>
         </div>
