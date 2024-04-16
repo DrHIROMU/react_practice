@@ -28,3 +28,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+$input-border-normal: #ccc;
+$input-border-focus: #9ca8b6;
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid $input-border-normal;
+  height: 4rem;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;
+  margin-left: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #c9c5c5;
+  width: 100%;
+  color: #7c7b7b;
+
+  &:focus {
+    border-color: $input-border-focus;
+    border-bottom-color: #ccc;
+    box-shadow: 0 0 8px rgba($input-border-focus, 0.5);
+  }
+}
