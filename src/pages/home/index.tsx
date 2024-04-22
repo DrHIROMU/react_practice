@@ -1,7 +1,12 @@
+import Mainframe from "../../components/mainframe";
 import "./Home.scss";
 
 function Home() {
-  return <div className="home-container">Home</div>;
+  return (
+    <>
+      <Mainframe></Mainframe>
+    </>
+  );
 }
 
 export default Home;
