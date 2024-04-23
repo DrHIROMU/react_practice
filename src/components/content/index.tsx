@@ -1,6 +1,11 @@
 import "./content.scss";
+import { Outlet } from "react-router-dom";
 
 function Content() {
-  return <div>content</div>;
+  return (
+    <div>
+      <Outlet />
+    </div>
+  );
 }
 export default Content;

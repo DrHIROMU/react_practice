@@ -29,7 +29,7 @@ function Login() {
   function login(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     console.log(formData.username, formData.password);
-    navigate("/home");
+    navigate("/app/home");
   }
 
   return (
