@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./pages/login";
 import Mainframe from "./components/mainframe";
 import Home from "./pages/home";
+import VendorInfo from "./pages/vendor/info";
 
 function App() {
   const router = createBrowserRouter([
@@ -14,7 +15,10 @@ function App() {
     {
       path: "app",
       element: <Mainframe />,
-      children: [{ path: "home", element: <Home /> }],
+      children: [
+        { path: "home", element: <Home /> },
+        { path: "vendor/info", element: <VendorInfo /> },
+      ],
     },
   ]);
 

@@ -1,4 +1,3 @@
-import Mainframe from "../../components/mainframe";
 import "./Home.scss";
 
 function Home() {
